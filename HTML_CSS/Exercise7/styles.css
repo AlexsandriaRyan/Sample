@@ -1,0 +1,85 @@
+/*
+---Alexsandria Ryan
+---Exercise #7
+---Submitted: February 14, 2022
+---Grade received: 100%
+
+---Assignment description:
+1.	In the BrightSpace dropbox for today’s activity, you have been provided with a ZIP file 
+containing some file resources for a web page:
+a.	An HTML page called lawncare.html
+b.	A CSS file called styles.css.
+c.	Images called grass_seamless_pattern.jpg, mowercycle.jpeg, and weeding_success.jpeg.
+
+2.	Add a CSS page to the website called layout_styles.css and properly link it into the HTML page. 
+Do NOT delete the existing styles.css file or remove its link from the HTML.
+
+3.	You will make the following additions to the new layout_styles.css page:
+a.	Set the charset of the CSS file to “UTF-8” appropriately.
+b.	Set the minimum width of the page body to 800 pixels.
+c.	Align the headings in the center of the page.
+d.	Make sure all images in all articles are floated to the right.
+e.	For the article with an ID of mowing:
+	-Make sure that it floats to the left
+	-Give it a width of 40 percent.
+	-Set left and right margins of 4 percent.
+	-Set a bottom margin of 20 pixels.
+	-Set its height to 350 pixels.
+f.	For the article with an ID of weeding:
+	-Make sure that it floats to the left
+	-Give it a width of 40 percent.
+	-Set right margin of 4 percent.
+	-Set a bottom margin of 20 pixels.
+	-Set its height to 350 pixels.
+g.	For the article with an ID of landscaping:
+	-Make sure that it does not float like the previous articles.
+	-Give it a width of 88 percent.
+	-Set left margin of 4 percent.
+	-Set top and bottom margins of 20 pixels.
+	-Align the footer text in the center of the page.
+*/
+
+@charset "UTF-8";
+
+/* Styles for Acme Lawn Care */
+body {
+	background-image: url('grass_seamless_pattern.jpg');
+	font: 22px Verdana, Georgia, sans-serif;
+}
+
+header {
+	margin-top: 0;
+	font-size: 30px;
+}
+
+h1,h2 {
+	color: white;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+article {
+	/* Progressive enhancement */
+	background-color: white;
+	background-color: rgba(255,255,255,0.7);
+	
+	/* Progressive enhancement */
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	
+	padding: 2%;
+	overflow: auto;
+}
+
+article h3 {
+	font-size: 25px;
+	margin-top: 0;
+}
+
+footer {
+	border-top: 3px solid white;
+	color: white;
+}

@@ -1,0 +1,81 @@
+<!---
+---Alexsandria Ryan
+---Exercise #8
+---Submitted: February 17, 2022
+---Grade received: 100%
+
+---Assignment description:
+1.	In the BrightSpace dropbox for today’s activity, you have been provided with a ZIP file 
+containing some file resources for a web page:
+a.	An HTML page called lawncare.html
+b.	A CSS file called styles.css.
+c.	Images called grass_seamless_pattern.jpg, mowercycle.jpeg, and weeding_success.jpeg.
+
+2.	Add a CSS page to the website called layout_styles.css and properly link it into the 
+HTML page. Do NOT delete the existing styles.css file or remove its link from the HTML.
+
+3.	You will make the following additions to the new layout_styles.css page:
+a.	Set the charset of the CSS file to “UTF-8” appropriately.
+b.	Align the headings in the center of the page.
+c.	Make sure all images in all articles are floated to the left this time.
+d.	Align the footer text in the center as well.
+e.	For the section tag:
+	-Make sure it displays as a grid with 3 rows and 2 columns.
+	-Make sure the first row is 100 pixels in size and the other two are set to auto size.
+	-Make sure the first column is 3/5 of the width of the screen and the second column is 2/5.
+f.	For the h2 tag in section:
+	-Make sure that it goes in the first row only.
+	-Make sure that it is in both the first and second columns.
+g.	For the article with an ID of mowing:
+	-Make sure that it goes in the second row only.
+	-Make sure that it is in the first column only.
+h.	For the article with an ID of weeding:
+	-Make sure that it goes in the second row only.
+	-Make sure that it is in the second column only.
+i.	For the article with an ID of landscaping:
+	-Make sure that it goes in the third row only.
+	-Make sure that it is in both the first and second columns.
+j.	Back on the section tag:
+	-Give the grid a gap between the columns of 2 percent.
+	-Give the grid a gap between the rows of 50 pixels.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Efficient and courteous lawn care!" />
+		<meta name="keywords" content="lawn,landscaping,weeding,soil" />
+		<meta name="author" content="mr. lawn" />
+		<title>Welcome to Acme Lawn Care!</title>
+		<link href="styles.css" rel="stylesheet" />
+		<link href="layout_styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to Acme Lawn Care!</h1>
+		</header>
+		<section>
+			<h2>Some of our Services!</h2>
+			<article id="mowing">
+				<h3>Mowing</h3>
+				<img src="mowercycle.jpeg" alt="Mower Cycle"/>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis ante turpis, interdum tempor ex dignissim sit amet. Nam ac augue id turpis posuere lacinia a a tellus. Aliquam at turpis cursus, posuere justo sit amet, commodo tortor. Morbi mollis eros at mollis vehicula. Nullam rhoncus in orci quis consectetur. Ut tempus ex tortor, non pulvinar ligula dictum sit amet. Sed volutpat, nisl quis tristique scelerisque, sem turpis dictum ante, a mollis massa lorem ac diam.</p>
+			</article>
+			<article id="weeding">
+				<h3>Weeding</h3>
+				<img src="weeding_success.jpeg" alt="Weeding Success"/>
+				<p>Fusce finibus turpis et ligula ultrices mollis. Maecenas in rhoncus ex. Phasellus vehicula massa sit amet elit accumsan, ac suscipit orci hendrerit. Nunc ligula quam, consectetur ut nulla porta, elementum rutrum eros. Ut sodales tempus ligula in maximus. Maecenas porttitor efficitur sollicitudin. Praesent et sem nec elit pharetra porttitor quis vitae orci.</p>
+			</article>
+			<article id="landscaping">
+				<h3>Landscaping</h3>
+				<p>Nulla scelerisque elit vel eros malesuada tincidunt. Pellentesque pulvinar nulla eu tortor blandit, non egestas turpis pharetra. Ut tellus felis, malesuada id imperdiet eu, feugiat ut augue. Sed hendrerit consequat dolor, quis efficitur massa tempus vel. Sed aliquet mauris enim, ac congue nunc ultrices id. Nam sed lacus a nunc accumsan suscipit id ut ante. Sed nisl nibh, varius id ultrices non, facilisis eu sem. Duis eu est nunc.</p>
+			</article>
+		</section>
+		<footer>
+			<p>Copyright &copy; 2021, Acme Lawn Care Inc.</p>
+			<address>123 Robie St, Halifax</address>
+		</footer>
+	</body>
+</html>

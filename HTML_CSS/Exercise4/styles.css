@@ -1,0 +1,72 @@
+/*
+---Alexsandria Ryan
+---Exercise #4
+---Submitted: January 27, 2022
+---Grade received: 100%
+
+---Assignment description:
+1.	In the BrightSpace dropbox for today’s activity, you have been provided with with a ZIP file
+containing some file resources for a web page:
+a.	An HTML page called paintshop.html
+b.	An image called location.png
+c.	A CSS file called styles.css
+
+2	In the styles.css page make the following additions:
+a.	Put a comment at the top marking yourself as the author and showing today’s date.
+b.	Try to set a background colour for the whole site matching the colour in the AFTER picture on the next page.
+c.	Set the font colour to #E0E0E0.
+d.	Set the font colour for links to be #E0E0E0 as well originally, but #909090 after they are clicked.
+
+3.	In the paintshop html page make the following additions:
+a.	Put inline styles on all five paint colours to set a background colour matching the colour names. 
+*/
+
+
+body { 	
+    font-family: arial;
+    background-color: rgb(121 19 29);
+    color: #e0e0e0
+}
+
+header, footer { 
+    text-align: center; 
+}
+
+article h3 {
+    text-decoration: underline; 
+}
+
+a { 
+    text-decoration : none; 
+}
+
+a:link {
+    color: #e0e0e0;
+  }
+
+a:hover {
+    text-decoration: underline; 
+}
+
+a:visited { 
+    color: #909090; 
+} 
+
+#philosophy p { 
+    padding-left: 20px; 
+}
+
+.important {
+    font-weight: bold; 
+    font-style: italic; 
+    font-size: 1.2em;
+}
+
+.onsale::after { 
+    content: " (ON SALE TODAY!!!)"; 
+    font-style: italic; 
+}
+
+#locationmap { 
+    padding-left: 50px; 
+}

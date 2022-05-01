@@ -1,0 +1,64 @@
+/*
+---Alexsandria Ryan
+---Exercise #17
+---Submitted: April 11, 2022
+---Grade received: 100%
+
+Assignment description unavailable as semester has ended.
+Entire file created by myself.
+*/
+
+@charset "UTF-8";
+
+/*
+	NSCC Inspire Conference Styles
+*/
+table{
+	border: 1px solid black;
+	width: 100%;
+}
+
+th{
+	border: 1px solid black;
+	align-content: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+.time{
+	text-align: center;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: lightblue;
+}
+
+td:not(:first-child){
+	font-size: small;
+}
+
+thead{
+	background-color: beige;
+}
+
+tfoot{
+	text-align: center;
+}
+
+#myReport{
+	border: 1px solid black;
+	height: 100px;
+	width: 50%;
+}
+
+#itinerary, footer {
+	margin-top: 50px;
+	border-top: 1px solid gray;
+}

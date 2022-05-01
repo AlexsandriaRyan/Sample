@@ -1,0 +1,24 @@
+/*
+---Alexsandria Ryan
+---Exercise #11
+---Submitted: March 3, 2022
+---Grade received: 100%
+
+Assignment description unavailable as semester has ended.
+Entire file created by myself.
+*/
+
+@charset "UTF-8";
+
+body{
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+article{
+    padding:20px;
+}

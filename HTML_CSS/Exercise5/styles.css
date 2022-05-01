@@ -1,0 +1,72 @@
+/*
+---Alexsandria Ryan
+---Exercise #5
+---Submitted: January 31, 2022
+---Grade received: 100%
+
+---Assignment description:
+1.	In the BrightSpace dropbox for today’s activity, you have been provided with with a ZIP file 
+containing some file resources for a web page:
+a.	An HTML page called index.html
+b.	An image called schoolbussafety.png
+
+2.	Add a CSS page to the website called styles.css and properly link it into the HTML page.
+
+3.	You will make the following additions to the new CSS page. 
+a.	Set the charset of the CSS file to “UTF-8” appropriately.
+c.	Set the background colour of the whole web page to a sky blue colour.
+d.	Set all of the font color to white for the whole web page and center all of the text.
+e.	Set the heading at the top to be 3 times default size (i.e. via either percent or em).
+f.	Set the strong tags to be italicized and underlined.
+g.	Set all of the paragraph text in the webpage to use Verdana as the preferred font, 
+but to failover to either Tahoma or a generic sans-serif font if not available.
+h.	Set all of the paragraph text to be either 20% bigger or 1.2 times it usual size.
+i.	Set individual paragraphs (i.e. by adding ID’s to the HTML) as follows:
+	-Set paragraph 1 to have a rgb(255,0,0) background-color that is 50% transparent.
+	-Set paragraph 2 to have a rgb(0,255,0) background-color that is 50% transparent.
+	-Set paragraph 3 to have a rgb(0,0,255 background-color that is 50% transparent.
+	-Set paragraph 4 to have a rgb(255,255,0) background-color that is 50% transparent.
+	-Set paragraph 5 to have a rgb(0,255,255) background-color that is 50% transparent.
+j.	Now the white font is a little hard to read on the lighter colour paragraph backgrounds. So, set paragraphs 2, 4,& 5 (i.e. by adding CLASSes to the HTML) as follows:
+k.	Make the font bold in those paragraphs.
+*/
+
+@charset "utf-8";
+html{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 300%;
+}
+
+strong{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 120%;
+}
+#P1{
+    background-color: rgb(255,0,0, 0.5);
+}
+#P2{
+    background-color: rgb(0,255,0, 0.5);
+}
+#P3{
+    background-color: rgb(0,0,255, 0.5);
+}
+#P4{
+    background-color: rgb(255,255,0, 0.5);
+}
+#P5{
+    background-color: rgb(0,255,255, 0.5);
+}
+
+p.bold{
+    font-weight: bold;
+}

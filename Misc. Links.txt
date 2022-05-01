@@ -1,0 +1,6 @@
+--> Worked on Joanne Pullin's website via Wordpress' Divi Builder.
+Header and footer are pre-designed, however the rest of the linked
+pages were created and designed by me.
+
+https://joannepullinrealtor.ca/testimonials/
+https://joannepullinrealtor.ca/3602malagashroad/

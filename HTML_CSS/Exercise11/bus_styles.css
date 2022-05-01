@@ -1,0 +1,30 @@
+/*
+---Alexsandria Ryan
+---Exercise #11
+---Submitted: March 3, 2022
+---Grade received: 100%
+
+Assignment description unavailable as semester has ended.
+Entire file created by myself.
+*/
+
+@charset "UTF-8";
+
+
+html{
+    background-image: url('https://www.pngkit.com/png/detail/230-2308908_frizzle-magic-school-bus-png.png');
+    background-size: 15%;
+}
+
+h2{
+    font-size: 250%;
+    color: gray;
+    text-shadow: 2px 2px red;
+}
+
+body{
+    background: linear-gradient(yellow, white);
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 10px 10px blue;
+}
